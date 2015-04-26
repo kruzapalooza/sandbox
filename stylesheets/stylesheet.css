@@ -1,0 +1,24 @@
+body { 
+  box-sizing: border-box;
+  color:blue;
+  background:green;
+  font-size: 16px;
+  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 5px;
+  margin: 10px 0 10px 0;
+  border: 1px solid #abebeb;
+
+  box-shadow: 0 0 5px #ebebeb;
+  -webkit-box-shadow: 0 0 5px #ebebeb;
+  -moz-box-shadow: 0 0 5px #ebebeb;
+  -o-box-shadow: 0 0 5px #ebebeb;
+  -ms-box-shadow: 0 0 5px #ebebeb;
+}
