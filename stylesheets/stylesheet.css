@@ -1,17 +1,19 @@
 body { 
   box-sizing: border-box;
-  color:blue;
-  background:green;
+  background-image:url('galaxy.jpg');
+  color:white;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+
+  href 
 }
 
 img {
   position: relative;
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 500px;
   padding: 5px;
   margin: 10px 0 10px 0;
   border: 1px solid #abebeb;
@@ -21,4 +23,16 @@ img {
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
+}
+
+p {
+  color: red;
+  height: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+  .left_nav {
+    width: 100%
+  }
+
 }
