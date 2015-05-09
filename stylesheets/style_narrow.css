@@ -10,6 +10,10 @@ body {
   href 
 }
 
+#page-wrap { width: 548px; }
+#page-wrap:after { content: "Narrow Layout"; }
+#secondary-two { display: none; }
+
 img {
   position: relative;
   margin: 0 auto;
